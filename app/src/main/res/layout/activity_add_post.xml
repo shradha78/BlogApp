@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context="Activities.AddPostActivity">
+
+  <RelativeLayout
+      android:id="@+id/relativeLayout2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:scrollbarAlwaysDrawVerticalTrack="true"
+      android:layout_marginBottom="200dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <ImageButton
+        android:id="@+id/addImageId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/addimage" />
+
+    <EditText
+        android:id="@+id/addTitleId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addImageId"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/input_outline"
+        android:hint="@string/post_title"
+        android:padding="10dp"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/addLocationId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addTitleId"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/input_outline"
+        android:hint="@string/Location"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/addTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addLocationId"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/input_outline"
+        android:hint="@string/post_text"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+
+  </RelativeLayout>
+
+  <Button
+
+      android:id="@+id/submitpostButtonId"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Submit"
+      android:background="@color/colorPrimary"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.912" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

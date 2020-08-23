@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "593086072347",
+    "firebase_url": "https://vlogapp-80352.firebaseio.com",
+    "project_id": "vlogapp-80352",
+    "storage_bucket": "vlogapp-80352.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593086072347:android:a33dd4a42c6bb75e0f5abe",
+        "android_client_info": {
+          "package_name": "com.theblog.vlogapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593086072347-h5bp6f83vv6is904iq7ipd5ep8uu1s9e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.theblog.vlogapp",
+            "certificate_hash": "102b8fd977da0ef2e3973508d12b5bc8e2c321cb"
+          }
+        },
+        {
+          "client_id": "593086072347-otl4st7fg7cfn47c1mg3f5v202v6qc80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR1xSryvATHpONbBMwY3Cy1JLKKP0_gRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593086072347-otl4st7fg7cfn47c1mg3f5v202v6qc80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

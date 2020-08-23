@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Blog</string>
+    <string name="CreateAccountButton">Create Account</string>
+    <string name="login">Login</string>
+    <string name="Email">Email</string>
+    <string name="password">Password</string>
+    <string name="post_title">Post Title</string>
+    <string name="post_text">Post Text</string>
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="Location">Location</string>
+    <string name="sure">Do you want to permanently delete this item?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+</resources>

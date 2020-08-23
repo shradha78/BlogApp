@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="6dp"
+    android:elevation="50dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    app:layout_constraintVertical_bias="0.007">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:padding="12dp"
+    android:layout_height="wrap_content">
+
+<!--    <Button-->
+<!--        android:id="@+id/deleteButtonId"-->
+<!--        android:layout_width="34dp"-->
+<!--        android:layout_height="29dp"-->
+<!--        android:layout_below="@+id/timeStampListId"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginRight="11dp"-->
+<!--        android:background="@android:drawable/ic_delete" />-->
+
+    <ImageView
+            android:id="@+id/postImageListId"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop"
+            android:src="@color/colorAccent" />
+
+
+        <TextView
+            android:id="@+id/postTitleListId"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Title"
+            android:layout_toRightOf="@+id/postImageListId"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/postLocationId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@+id/postImageListId"
+            android:layout_below="@+id/postTitleListId"
+            android:text="Location"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/timeStampListId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@+id/postImageListId"
+            android:layout_below="@id/postLocationId"
+            android:text="Date added"
+            android:textSize="18sp" />
+</RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

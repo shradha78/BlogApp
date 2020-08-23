@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="23dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/dialogAlertid"
+                android:text="@string/sure"
+                android:paddingTop="5dp"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"/>
+            <Button
+                android:id="@+id/noButtonID"
+                android:background="@color/colorAccent"
+                android:text="@string/no"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/dialogAlertid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/yesButtonID"
+                android:background="@color/colorAccent"
+                android:layout_alignParentRight="true"
+                android:text="@string/yes"
+                android:layout_alignBottom="@+id/noButtonID"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/dialogAlertid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
